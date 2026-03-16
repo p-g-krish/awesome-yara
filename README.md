@@ -45,9 +45,6 @@ Rule collections from prior years of the challenge: [100 Days of YARA](https://g
 
 ## Rules
 
-* [Operation Epic Fury Rules](https://github.com/paolocostanzo/operation-epic-fury-rules) :eyes:
-    - YARA + Sigma detection rules for Operation Epic Fury (Iranian-linked dual-platform campaign, 2026). Covers LotAccessUI.EXE (trojanized AppEx VPN Windows RAT with RDTSC anti-VM evasion, T1497.003) and fake RedAlert Android spyware (com.red.alertx + com.net.alerts with Pushy.me C2). Includes secondary C2 (167.160.187.43) with 0/94 VirusTotal detections at publication. TLP:WHITE, MIT license.
-
 * [AlienVault Labs Rules](https://github.com/AlienVault-Labs/AlienVaultLabs/tree/master/malware_analysis)
     - Collection of tools, signatures, and rules from the researchers at [AlienVault Labs](https://cybersecurity.att.com/blogs/labs-research). Search the repo for .yar and .yara extensions to find about two dozen rules ranging from APT detection to generic sandbox / VM detection. Last updated in January of 2016.
 * [anyrun rules](https://github.com/anyrun/YARA)
@@ -142,6 +139,8 @@ Rule collections from prior years of the challenge: [100 Days of YARA](https://g
     - Repository of YARA rules made by McAfee ATR Teams.
 * [mikesxrs YARA Rules Collection](https://github.com/mikesxrs/Open-Source-YARA-rules) :eyes:
     - Large collection of open source rules aggregated from a variety of sources, including blogs and other more ephemeral sources. Over 100 categories, 1500 files, 4000 rules, and 20Mb. If you're going to pull down a single repo to play with, this is the one.
+* [Operation Epic Fury Rules](https://github.com/paolocostanzo/operation-epic-fury-rules) :sparkles:
+    - YARA + Sigma detection rules for Operation Epic Fury (Iranian-linked dual-platform campaign, 2026). Covers LotAccessUI.EXE (trojanized AppEx VPN Windows RAT with RDTSC anti-VM evasion, T1497.003) and fake RedAlert Android spyware (com.red.alertx + com.net.alerts with Pushy.me C2). Includes secondary C2 (167.160.187.43) with 0/94 VirusTotal detections at publication. TLP:WHITE, MIT license.
 * [Public YARA Rules](https://github.com/jipegit/yara-rules-public)
     - Repository of Public YARA Rules.
 * [QuickSand Lite Rules](https://github.com/tylabs/quicksand_lite)
